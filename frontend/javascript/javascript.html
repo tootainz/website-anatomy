@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/files/styles.css">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <h1>What is JavaScript</h1>
+
+    <button onclick="showLine()">Press to show more</button>
+
+    <div id="lines">
+
+    </div>
+
+    <ul id="list" class="hidden">
+        <li>Push a button and hide or show something</li>
+        <li>click on the screen and put a dot there</li>
+        <li>submit a form and calculate the average of the values</li>
+        <li>implement a game</li>
+    </ul>
+
+    <a href="/frontend/javascript/what-is-programming.html">< Pervious</a>
+    <a href="/">Index</a>
+    <a href="/frontend/javascript/examples.html">Next page ></a>
+
+    <script>
+        const lineContainer = document.getElementById("lines");
+        let currentLine = 0;
+
+        const lines = [
+            "In the beignnign it was intended as a small language to write short instructions for html documents. Now it has grown into a large language and is used extensively in web applications and web pages. It is now also used to write the programs on servers as well.",
+            "javascript is read by the browser with the html document, not the computer directly",
+            "For example the chrome browser uses a v8 javascript “engine” that takes the javascript",
+            "It is then translated into bytecode: a less readable language that will then be interpreted or compiled into machine code depending on a complicated optimization process.",
+            "So javascript is like instructions on how to use your newly organized paper plane page of a book. you take the pieces and maybe change their position depending on wether you are left or right handed.",
+            "With javascript you can change basically everything in the document and you can give instructions to the browser what to do.",
+            "This allows for interactivity"
+        ];
+
+        function showLine() {
+            if (currentLine < lines.length) {
+                const line = document.createElement("p");
+                line.textContent = lines[currentLine];
+                lineContainer.appendChild(line);
+                currentLine++;
+            }
+            if (currentLine === lines.length) {
+                const list = document.getElementById("list");
+                list.classList.remove("hidden");
+            }
+        }
+    </script>
+
+</body>
+</html>

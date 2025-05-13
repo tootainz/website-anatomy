@@ -1,0 +1,78 @@
+/* STYLESHEET FOR "SIMPLE ANATOMY OF A WEBSITE" */
+
+/* -------------------------------------------------- */
+/* VARIABLES AMD CONSTANTS */
+/* -------------------------------------------------- */
+
+/* Visual identity */
+
+:root {
+    --screen-amber: #fcbf00;
+    --burned-amber: #2a1d07;
+    --black: #000000;
+    --white: #ffffff;
+    --ligth-beige: #ece4d5;
+    --dark-beige: #aea99d;
+}
+
+@font-face {
+    font-family: "Eurotype Bold";
+    src: url("/files/fonts/QTEurotype-Bold.otf");
+}
+
+@font-face {
+    font-family: "Eurotype";
+    src: url("/files/fonts/QTEurotype.otf");
+}
+
+@font-face {
+    font-family: "Print Char";
+    src: url("/files/fonts/PrintChar21.ttf");
+}
+
+/* -------------------------------------------------- */
+/* ELEMENT STYLING */
+/* -------------------------------------------------- */
+
+html {
+    background-color: var(--ligth-beige);
+}
+
+body {
+    color: var(--black);
+    background-color: var(--white);
+    font-family: "Eurotype";
+}
+
+/* -------------------------------------------------- */
+/* GENERAL CLASSES */
+/* -------------------------------------------------- */
+
+.hiddenSecret {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* -------------------------------------------------- */
+/* JAVASCRIPT EXAMPLE */
+/* -------------------------------------------------- */
+
+#game {
+    font-family: "Print Char";
+    background-color: var(--black);
+    color: var(--screen-amber);
+    padding: 50px;
+}
+
+#grid {
+    text-align: center;
+}
+
+.gameTile {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
