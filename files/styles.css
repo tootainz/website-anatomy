@@ -17,17 +17,17 @@
 
 @font-face {
     font-family: "Eurotype Bold";
-    src: url("/files/fonts/QTEurotype-Bold.otf");
+    src: url("./fonts/QTEurotype-Bold.otf");
 }
 
 @font-face {
     font-family: "Eurotype";
-    src: url("/files/fonts/QTEurotype.otf");
+    src: url("./fonts/QTEurotype.otf");
 }
 
 @font-face {
     font-family: "Print Char";
-    src: url("/files/fonts/PrintChar21.ttf");
+    src: url("./fonts/PrintChar21.ttf");
 }
 
 /* -------------------------------------------------- */
