@@ -42,6 +42,53 @@ body {
     color: var(--black);
     background-color: var(--white);
     font-family: "Eurotype";
+    max-width: 500px;
+    font-size: 20px;
+    padding: 50px;
+}
+
+code {
+    font-family: "Print Char";
+    font-size: 12px;
+    background-color: var(--black);
+    color: var(--screen-amber);
+    padding: 5px;
+}
+
+a {
+    color: var(--burned-amber);
+}
+
+a:hover {
+    color: var(--black);
+    background-color: var(--ligth-beige);
+}
+
+button {
+    font-family: "Eurotype";
+    font-size: 20px;
+    color: var(--black);
+    background-color: var(--dark-beige);
+}
+
+button:hover {
+    color: var(--black);
+    background-color: var(--ligth-beige);
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a {
+    border: solid;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: var(--black);
+    margin: 10px;
+    padding: 5px;
+    color: var(--black);
+    background-color: var(--dark-beige);
 }
 
 /* -------------------------------------------------- */

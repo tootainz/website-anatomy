@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/files/styles.css">
+    <link rel="stylesheet" href="../../files/styles.css">
     <title>Javascript</title>
 </head>
 <body>
@@ -23,16 +23,20 @@
         <li>implement a game</li>
     </ul>
 
-    <a href="./what-is-programming.html">< Pervious</a>
-    <a href="../../">Index</a>
-    <a href="./examples.html">Next page ></a>
+    <footer>
+        <nav>
+            <a href="./what-is-programming.html">&lt Pervious</a>
+            <a href="../../">Index</a>
+            <a href="./examples.html">Next page &gt</a>
+        </nav>
+    </footer>
 
     <script>
         const lineContainer = document.getElementById("lines");
         let currentLine = 0;
 
         const lines = [
-            "In the beignnign it was intended as a small language to write short instructions for html documents. Now it has grown into a large language and is used extensively in web applications and web pages. It is now also used to write the programs on servers as well.",
+            "In the beignning JavaScript was intended as a small language to write short instructions for HTML documents. Now it has grown into a large language and is used extensively in web applications and web pages. It is now also used to write the programs on servers as well.",
             "javascript is read by the browser with the html document, not the computer directly",
             "For example the chrome browser uses a v8 javascript “engine” that takes the javascript",
             "It is then translated into bytecode: a less readable language that will then be interpreted or compiled into machine code depending on a complicated optimization process.",
