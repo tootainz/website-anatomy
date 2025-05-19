@@ -10,53 +10,115 @@
 
     <h1>What is JavaScript</h1>
 
+    <!-- Here we have a button tag. A button or actually almsot anything can have a onclick property. It can be given a JavaScript function that will be executed every time that this button is pressed. -->
+    <!-- Here we see that the function is called showLine. It is declared inside the code inside the <script> tag on the bottom of the page. -->
     <button onclick="showLine()">Press to show more</button>
 
+    <!-- Here i have set up a container for the game. As you notice, im using <div> tags. These are just used to group objects together and they can be given classes or id:s that can be used to style them in css or used in JavaScript. -->
     <div id="lines">
-
     </div>
 
+    <!-- This list has a class of hidden, so it wint be displayed by default, since the CSS in class hidden tells display: none; if you look into the styles.css file. -->
     <ul id="list" class="hidden">
         <li>Push a button and hide or show something</li>
-        <li>click on the screen and put a dot there</li>
-        <li>submit a form and calculate the average of the values</li>
-        <li>implement a game</li>
+        <li>Click on the screen and put a dot there</li>
+        <li>Submit a form and calculate the average of the values</li>
+        <li>Implement a game</li>
     </ul>
 
     <footer>
         <nav>
-            <a href="./what-is-programming.html">&lt Pervious</a>
+            <a href="./what-is-programming.html">&lt Previous</a>
             <a href="../../">Index</a>
-            <a href="./examples.html">Next page &gt</a>
+            <a href="./example.html">Next page &gt</a>
         </nav>
     </footer>
 
+    <!-- This is a script tag. Script tags are used to contain JavaScript code taht will be used on the website. -->
     <script>
+        /*
+
+        Hello!! Welcome to JavaScript!!  
+
+                     _        _       
+                    /\ \     / /\     
+                    \ \ \   / /  \    
+                    /\ \_\ / / /\ \__ 
+                   / /\/_// / /\ \___\
+          _       / / /   \ \ \ \/___/
+         /\ \    / / /     \ \ \      
+         \ \_\  / / /  _    \ \ \     
+         / / /_/ / /  /_/\__/ / /     
+        / / /__\/ /   \ \/___/ /      
+        \/_______/     \_____\/       
+
+        */
+
+        // Here you will at first notice that comments are different... In JS comments are marked either with // for a single line comment or with /* and */ for a larger block of code spanning multiple lines.
+        // As a warning, I wont teach you how to program here. That needs it's own book or webiste or course. But I will try to explain some concepts and what everyhting is.
+
+        // Let's get into the actual script
+
+        // I will first try to explain the program in a more human readable languge. This is called pseudocode and it can basically be anything that describes a program.
+        /*
+            Start to go through a list of paragraphs that are written down on a note.
+            Keep a note of which paragraph we are looking at.
+            If this current paragraph is not the last paragraph of the list:
+                And if this paragraph tells you to "add a list":
+                    Take a different list that you hid beforehand and add the whole different list to the area on the document that's reserved for paragraphs.
+                If not, then in every other case:
+                    Write this current paragrpah to the the area on the document that's reserved for paragraphs.
+                Remember that you wrote it down and that you are next looking at the next paragrpah on the list.
+        */
+
+        // These next two lines are ways to store data for the code to access or edit later. They are called constants and varibales. A constant only stores data and cannot be changed. A variable's value can be changed later as well.
+        
+        // Constant for storing the container where the text paragraphs will be placed.
+        // The = symbol means that we assign a value to this constant or variable.
+        // This also shows how we can ask the document to give us the element that has the id="lines" property. The . symbol means that we are calling a property of that object. In this case it is a function that as the name suggests, gives us an element with the given id.
         const lineContainer = document.getElementById("lines");
+
+        // Variable for storing the index of the current line, this will be used to access an array or "list" of the text lines down below.
         let currentLine = 0;
 
+        // Here again, we have a constant. This time it stores a list of "strings". Strings are just line of characters or as we call it, text. The [] symbols show that this is an array where the contents are separated by commas. An array's entries can be accessed with their index, meaning 0=first, 1=second, 2=third, etc.
         const lines = [
-            "In the beignning JavaScript was intended as a small language to write short instructions for HTML documents. Now it has grown into a large language and is used extensively in web applications and web pages. It is now also used to write the programs on servers as well.",
-            "javascript is read by the browser with the html document, not the computer directly",
-            "For example the chrome browser uses a v8 javascript “engine” that takes the javascript",
-            "It is then translated into bytecode: a less readable language that will then be interpreted or compiled into machine code depending on a complicated optimization process.",
-            "So javascript is like instructions on how to use your newly organized paper plane page of a book. you take the pieces and maybe change their position depending on wether you are left or right handed.",
-            "With javascript you can change basically everything in the document and you can give instructions to the browser what to do.",
-            "This allows for interactivity"
+            "In the beignning, JavaScript was intended as a small language to write short instructions for HTML documents. Now it has grown into a large language and is used extensively in web applications and web pages. It is now also used to write the programs on servers as well.",
+            "With JavaScript, you can make a website interactive. It can change basically anything in the document and give custom instructions to the browser what to do with the document. For example:",
+            "ADD_LIST",
+            "JavaScript is read by the browser with the HTML document, not the computer directly. The browser then tells the computer what to do.",
+            "For example the Chrome browser uses a javascript “engine” called V8. It is responsible for processing the JavaScript that comes with the website. The JavaScript is translated into bytecode: a less human-readable language that will then be interpreted or compiled by the engine into machine code depending on a complicated optimization process.",
+            "So JavaScript is like instructions on how to use your newly organized paper plane page of the book. You take the pieces and maybe change their position depending on wether you are left or right handed.",
+            "Take a look into this page's code to see how we can use JavaScript to make the text appear as you press the button on top. Continue to the next page to see a small game as an example for what you can achieve with JavaScript."
         ];
 
+        // This is a function. Functions are just used to store code that can be "called" and run multiple times if needed.
+        // This is the function that will be called when someone presses the button on the page.
         function showLine() {
+            // This is a conditional statement. It means that if (this happens) {do this} if it doesn't, else {do this}.
+            // In this specific case we are checking that if the current line is not yet the last line, then add another paragraph.
             if (currentLine < lines.length) {
-                const line = document.createElement("p");
-                line.textContent = lines[currentLine];
-                lineContainer.appendChild(line);
+                // And another conditional if statement nested inside the first one.
+                // This one checks if the current line is "ADD_LIST". If it is, it removes the hidden class and the list becomes visible it also adds the list to the linecontainer div.
+                if (lines[currentLine] === "ADD_LIST") {
+                    const list = document.getElementById("list");
+                    lineContainer.appendChild(list);
+                    list.classList.remove("hidden");
+                }
+                // If the line is not "ADD_LIST", the code creates a <p> tag to the HTML document, adds the text from the lines array and adds it to the linecontainer.
+                else {
+                    const line = document.createElement("p");
+                    line.textContent = lines[currentLine];
+                    lineContainer.appendChild(line);
+                }
+                // and in the end, we need to remember to move to the next line by increasing the value of the currentLine variable by one, the ++ symbol means taht increase this by one. We could also write: currentLine = currentLine + 1;
                 currentLine++;
             }
-            if (currentLine === lines.length) {
-                const list = document.getElementById("list");
-                list.classList.remove("hidden");
-            }
         }
+
+        // That's it. It still probably looks really complicated. but I hope the comments help a bit.
+        // Here you might start to see that in HTML, JavaScript and CSS everything is quite interconnected. All these three languages are referencing each other all the time. Also, tags, classes and id:s, CSS styles are really important.
+        // On the next page, you will see an example of a more complicated JS propgram.
     </script>
 
 </body>

@@ -3,18 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To understand this page better, it might be better to look into the styles.css file in the files section of the book. -->
     <link rel="stylesheet" href="../files/styles.css">
     <title>CSS</title>
 </head>
 <body>
 
-    <h1>CSS</h1>
+    <!-- Here you see an exampe of the id proprty of a tag. It makes it easier for us to access this specific tag with css. Id tags should always be unique for a single element-->
+    <h1 id="theCssHeader">CSS</h1>
 
-    <p>CSS is a language that specifies the style of the HTML document. Basically, how the elements of the document should look like and how they should be positioned, like paragraph styles in a text editor.</p>
-    <p>In CSS you have selectors that help you target the styles to specific parts of the HTML. These can be tag names or they could be your customly chosen id or class properties that you can give to tags.</p>
-    <p>You can combine selectors to target even more specific parts of your website, but usually its better to use more general selectors so you can apply styles to all elemnts that need the same style.</p>
-    <p>CSS styling information could be directly written to the HTML document but it is cleaner to write it somewhere else, usually in a styles.css file.</p>
+    <!-- Here you see examples of the class property. This is also used to access specific tags but it is used to mark multiple different tags.-->
+    <p class="cssParagraph">CSS is a language that specifies the style of the HTML document. Basically, how the elements of the document should look like and how they should be positioned, like paragraph styles in a text editor.</p>
+    <p class="cssParagraph">In CSS you have selectors that help you target the styles to specific parts of the HTML. These can be tag names or they could be your customly chosen id or class properties that you can give to tags.</p>
+    <p class="cssParagraph">You can combine selectors to target even more specific parts of your website, but usually its better to use more general selectors so you can apply styles to all elemnts that need the same style.</p>
+    <p class="cssParagraph">CSS styling information could be directly written to the HTML document but it is cleaner to write it somewhere else, usually in a styles.css file.</p>
     
+    <!-- In a HTML document CSS could also be included in a <style> tag. It would usually be included in the <head> tag of the document.
+    Here is a CSS example:
+
+    body {
+        font-family: "Arial";
+        font-size: 16px;
+        color: white;
+        backgroung-color: black;
+    }
+
+    #theCssHeader {
+        font-size: 100px;
+        color: orange;
+        padding: 10px;
+        margin: 50px;
+    }
+
+    .cssParagraph {
+        text-decoration: underline;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    Here we see that first comes the selector and then the properties inside the {} each property has the name : value and ends with ;
+    The selector can be a tag name, or # for an id or . for a class.
+
+    The way that CSS styles are applied is taht first the most general and after that the more specific. So you could say taht all text in <body> should be white, but you can override that by saying that the tag with id theCssHeader should be orange. -->
+
     <h2>Examples of CSS properties</h2>
 
     <ul>
@@ -42,11 +73,11 @@
         <li><code>footer a</code></li>
     </ul>
 
-    <p>Returning to our paper plane analogy again: you have all this text and these images that you received inside your paper plane, now you cut all them out and CSS is the instructions, how you should organize them on your desk and what color you should use for them etc.</p>
+    <p>Returning to our paper plane analogy again: You have all this text and these images that you received inside your paper plane, now you cut all them out and CSS is the instructions  how you should organize them on your desk and what color you should use for them etc.</p>
 
     <footer>
         <nav>
-            <a href="./html.html">&lt Pervious</a>
+            <a href="./html.html">&lt Previous</a>
             <a href="../">Index</a>
             <a href="./javascript/what-is-programming.html">Next page &gt</a>
         </nav>

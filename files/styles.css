@@ -1,12 +1,29 @@
-/* STYLESHEET FOR "SIMPLE ANATOMY OF A WEBSITE" */
+/* STYLESHEET FOR "SIMPLE ANATOMY OF A WEBSITE"
+
+By Joonatan Koponen
+--------------------------------------------------
+      ...                 ...                ...        
+   xH88"`~ .x8X       .x888888hx    :    .x888888hx    :
+ :8888   .f"8888Hf   d88888888888hxx    d88888888888hxx 
+:8888>  X8L  ^""`   8" ... `"*8888%`   8" ... `"*8888%` 
+X8888  X888h       !  "   ` .xnxx.    !  "   ` .xnxx.   
+88888  !88888.     X X   .H8888888%:  X X   .H8888888%: 
+88888   %88888     X 'hn8888888*"   > X 'hn8888888*"   >
+88888 '> `8888>    X: `*88888%`     ! X: `*88888%`     !
+`8888L %  ?888   ! '8h.. ``     ..x8> '8h.. ``     ..x8>
+ `8888  `-*""   /   `88888888888888f   `88888888888888f 
+   "888.      :"     '%8888888888*"     '%8888888888*"  
+     `""***~"`          ^"****""`          ^"****""`    
+-------------------------------------------------- */
 
 /* -------------------------------------------------- */
-/* VARIABLES AMD CONSTANTS */
+/* VARIABLES AMD CONSTANTS AND STUFF */
 /* -------------------------------------------------- */
 
 /* Visual identity */
 
 :root {
+    /* Colors */
     --screen-amber: #fcbf00;
     --burned-amber: #2a1d07;
     --black: #000000;
@@ -14,6 +31,8 @@
     --ligth-beige: #ece4d5;
     --dark-beige: #aea99d;
 }
+
+/* Typefaces */
 
 @font-face {
     font-family: "Eurotype Bold";
@@ -45,6 +64,22 @@ body {
     max-width: 500px;
     font-size: 20px;
     padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+}
+
+h1 {
+    font-family: "Eurotype Bold";
+    font-size: 35px;
+}
+
+
+h2 {
+    font-family: "Eurotype Bold";
+    font-size: 25px;
 }
 
 code {
@@ -68,16 +103,23 @@ button {
     font-family: "Eurotype";
     font-size: 20px;
     color: var(--black);
-    background-color: var(--dark-beige);
+    border-width: 1px;
+    background-color: var(--ligth-beige);
+    margin: 10px;
+    padding: 5px;
 }
 
 button:hover {
     color: var(--black);
-    background-color: var(--ligth-beige);
+    background-color: var(--dark-beige);
 }
 
 nav {
     margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 nav a {
@@ -88,12 +130,33 @@ nav a {
     margin: 10px;
     padding: 5px;
     color: var(--black);
+    background-color: var(--ligth-beige);
+}
+
+nav a:hover {
     background-color: var(--dark-beige);
+}
+
+ul li::marker {
+    content: "> ";
+}
+
+footer {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* -------------------------------------------------- */
 /* GENERAL CLASSES */
 /* -------------------------------------------------- */
+
+.bookTitle {
+    font-size: 50px;
+}
+
+.bodyBlock {
+    padding-bottom: 25px;
+}
 
 .hiddenSecret {
     display: none;
@@ -109,17 +172,38 @@ nav a {
 
 #game {
     font-family: "Print Char";
+    font-size: 18px;
     background-color: var(--black);
     color: var(--screen-amber);
     padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #grid {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+#grid p {
+    margin: 0;
+}
+
+#grid #score {
+    margin-bottom: 25px;
+}
+
+#gameInfo p:last-child {
+    margin-bottom: 0;
+}
+
+#gameInfo p:first-child {
+    margin-top: 0;
 }
 
 .gameTile {
     display: inline-block;
     width: 20px;
     height: 20px;
+    margin: 5px;
 }

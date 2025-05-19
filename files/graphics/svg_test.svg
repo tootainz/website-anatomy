@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="682.89" height="762.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 682.89 762.1">
+  <defs>
+    <style>
+      svg {
+        image-rendering: pixelated;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #1d1d1b;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-2 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        font-family: QTEurotype, QTEurotype;
+        font-size: 21.33px;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="308.29" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" y="117.07" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="0" y="117.07" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" x="33.69" y="544.05" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-1" x="497.26" y="232.23" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-1" x="238.12" y="325.04" width="185.63" height="185.63"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-1" x="404.45" y="547.03" width="185.63" height="185.63"/>
+    </clipPath>
+  </defs>
+  <g class="cls-11">
+    <image width="64" height="64" transform="translate(308.29) scale(2.9)" xlink:href="../images/svg_test-1.png"/>
+  </g>
+  <g class="cls-5">
+    <g class="cls-8">
+      <image width="64" height="64" transform="translate(0 117.07) scale(2.9)" xlink:href="../images/svg_test-2.png"/>
+    </g>
+  </g>
+  <g class="cls-6">
+    <image width="64" height="64" transform="translate(33.69 544.05) scale(2.9)" xlink:href="../images/svg_test-3.png"/>
+  </g>
+  <text class="cls-4" transform="translate(24.75 325.04)"><tspan x="0" y="0" xml:space="preserve">192.168.14.23  </tspan></text>
+  <text class="cls-4" transform="translate(574.79 317.03)"><tspan x="0" y="0">GET</tspan></text>
+  <text class="cls-4" transform="translate(596.11 528.01)"><tspan x="0" y="0">GET</tspan></text>
+  <text class="cls-4" transform="translate(525.06 412.79)"><tspan x="0" y="0">172.16.254.3</tspan></text>
+  <text class="cls-4" transform="translate(430.91 757.58)"><tspan x="0" y="0">66.249.79.124</tspan></text>
+  <text class="cls-4" transform="translate(58.62 753.47)"><tspan x="0" y="0">45.33.32.156 </tspan></text>
+  <g class="cls-7">
+    <image width="64" height="64" transform="translate(497.26 232.23) scale(2.9)" xlink:href="../images/svg_test-4.png"/>
+  </g>
+  <g class="cls-10">
+    <image width="64" height="64" transform="translate(238.12 325.04) scale(2.9)" xlink:href="../images/svg_test-5.png"/>
+  </g>
+  <g class="cls-9">
+    <image width="64" height="64" transform="translate(404.45 547.03) scale(2.9)" xlink:href="../images/svg_test-6.png"/>
+  </g>
+  <text class="cls-4" transform="translate(343.75 216.85)"><tspan x="0" y="0" xml:space="preserve">10.45.78.99  </tspan></text>
+  <text class="cls-4" transform="translate(295.9 538.42)"><tspan x="0" y="0">8.8.4.4 </tspan></text>
+  <text class="cls-4" transform="translate(523.4 209.89)"><tspan x="0" y="0">GET</tspan></text>
+  <text class="cls-4" transform="translate(224.87 284.18)"><tspan x="0" y="0">GET</tspan></text>
+  <text class="cls-4" transform="translate(448.95 445.62)"><tspan x="0" y="0">DELETE</tspan></text>
+  <text class="cls-4" transform="translate(297.01 691.43)"><tspan x="0" y="0">CONNECT</tspan></text>
+  <text class="cls-4" transform="translate(203.47 101.56)"><tspan x="0" y="0">POST</tspan></text>
+  <text class="cls-4" transform="translate(235.12 589.22)"><tspan x="0" y="0">POST</tspan></text>
+  <g>
+    <line class="cls-2" x1="169.66" y1="138.78" x2="306.21" y2="100.12"/>
+    <polygon class="cls-3" points="302.06 109.79 300.35 108.75 305.47 100.33 296.69 95.83 297.6 94.05 308.29 99.53 302.06 109.79"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="488.18" y1="182.58" x2="545.76" y2="249.82"/>
+    <polygon class="cls-3" points="535.24 250.1 535.47 248.11 545.26 249.23 545.66 239.38 547.66 239.46 547.17 251.46 535.24 250.1"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="401.11" y1="441.65" x2="494.94" y2="385.07"/>
+    <polygon class="cls-3" points="493.49 395.5 491.56 394.95 494.28 385.47 484.63 383.45 485.04 381.49 496.8 383.95 493.49 395.5"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="194.44" y1="598.62" x2="274.99" y2="507.43"/>
+    <polygon class="cls-3" points="276.73 517.81 274.73 517.87 274.48 508.01 264.67 508.98 264.47 506.98 276.42 505.81 276.73 517.81"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="538.92" y1="593.72" x2="584.6" y2="440.55"/>
+    <polygon class="cls-3" points="590.55 449.23 588.75 450.12 584.38 441.28 575.88 446.28 574.87 444.56 585.22 438.47 590.55 449.23"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="448.95" y1="659.16" x2="227.93" y2="659.16"/>
+    <polygon class="cls-3" points="234.56 650.98 235.93 652.44 228.7 659.15 235.93 665.87 234.56 667.33 225.77 659.15 234.56 650.98"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="173.87" y1="270.05" x2="253.1" y2="328.21"/>
+    <polygon class="cls-3" points="242.92 330.88 242.68 328.89 252.48 327.76 250.63 318.07 252.6 317.69 254.85 329.49 242.92 330.88"/>
+  </g>
+</svg>
