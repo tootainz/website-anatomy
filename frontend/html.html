@@ -10,10 +10,10 @@ ________________________________________________________
 I assume you have read the page on the website side already. Lets take a deeper dive into what this HTML file actually is.
 -->
 
-<!-- As you see here, this is a tag, it tells that this document is a html document then afte rtaht everything is placed inside the html tag. -->
+<!-- As you see here, this is a tag, it tells that this document is a html document then after taht everything is placed inside the <html> tag. -->
 <!DOCTYPE html>
 <html lang="en">
-<!-- This is the head tag that we talked about. All of it's content is usually icluded in a typical HTML document-->
+<!-- This is the <head> tag that we talked about. All of it's content is usually icluded in a typical HTML document-->
 <head>
     <!-- This tells what text encoding this document uses -->
     <meta charset="UTF-8">
@@ -24,9 +24,9 @@ I assume you have read the page on the website side already. Lets take a deeper 
     <!-- And finally, the title of the page. This is shown on the browser window, not the actual document itself.-->
     <title>HTML</title>
 </head>
-<!-- Here is the body tag that contains the actual content of the document that we see. -->
+<!-- Here is the <body> tag that contains the actual content of the document that we see. -->
 <body>
-    <!-- Section is just a way to group tags together. It is similiar to a div tag.
+    <!-- <Section> is just a way to group tags together. It is similiar to a <div> tag.
     And another thing: As you see here, inside contents of a tag are usually indented to make the document easier to read for humans making it.-->
     <section class="bodyBlock">
         <!-- This is a level one header. You can have multiple levels of headers. It tells that this text should be big!! But of course it can be adjusted in CSS how it will look like. -->
@@ -42,9 +42,9 @@ I assume you have read the page on the website side already. Lets take a deeper 
         <!-- This is a level 2 header -->
         <h2>Examples of tags</h2>
 
-        <!-- This ul tag means an unordered list, so bullet points. There is also an ol, in which the list items would be numbered from 1. forward -->
+        <!-- This <ul> tag means an unordered list, so bullet points. There is also an <ol>, in which the list items would be numbered from 1. forward -->
         <ul>
-            <!-- A list must contain list items that are marked with li. These can have other tags inside of them such as in this case a code tag that is used to represent that this text is an example of code. They could also be links such as in the footer down below. -->
+            <!-- A list must contain list items that are marked with <li>. These can have other tags inside of them such as in this case a code tag that is used to represent that this text is an example of code. They could also be links such as in the footer down below. -->
             <li>paragraph   <code>&ltp&gt</code></li>
             <li>heading     <code>&lth1&gt</code></li>
             <li>button      <code>&ltbutton&gt</code></li>
@@ -61,20 +61,18 @@ I assume you have read the page on the website side already. Lets take a deeper 
         <div class="pixelPlaneCollection">
             <object type="image/svg+xml" data="../files/graphics/html-plane.svg" width="100%" height="100%" style="image-rendering: pixelated;"></object>
         </div>
-
     </section>
     
-    <!-- This is a footer. It, along with a header are really common in websites. A footer is used to contain info such as links or copyright or other stuff that is usually the same on every page. Footer is in the bottom of a page and headr on the top. A typical header has a logo and navigation links or buttons. -->
+    <!-- This is a <footer>. It, along with a <header> are really common in websites. A footer is used to contain info such as links or copyright or other stuff that is usually the same on every page. Footer is in the bottom of a page and head on the top. A typical header has a logo and navigation links or buttons. -->
     <footer>
-        <!-- this nav tag means that the contents inside are used for navigating the website. -->
+        <!-- this <nav> tag means that the contents inside are used for navigating the website. -->
         <nav>
-            <!-- this a tag is a link. It provides a possibility to click it and then the browser navigates to the address given in the href property. -->
+            <!-- this <a> tag is a link. It provides a possibility to click it and then the browser navigates to the address given in the href property. -->
             <a href="./website-structure.html">&lt Previous</a>
             <a href="../">Index</a>
-            <a href="./css.html">Next page &gt</a>
+            <a href="./css.html">Next &gt</a>
         </nav>
     </footer>
-
 </body>
 </html>
-<!-- And here we have reached the end of the document. It's good to know that a browser will always try to display the HTML docuent even if it is not properly written. Therefore text outside of labels is shown on the site. Some labels that are not closed might still work. YOu could also just write the document without these fancy footer, nav, section tags but they are used to make the document easier to understand for the developers and also those who cannot see hte page but use a screenreader. Or search angines will also prefer sites with proper formatting. -->
+<!-- And here we have reached the end of the document. It's good to know that a browser will always try to display the HTML docuent even if it is not properly written. Therefore text outside of labels is shown on the site. Some tags that are not closed might still work. You could also just write the document without these fancy <footer>, <nav>, <section> tags but they are used to make the document easier to understand for the developers and also those who cannot see the page but use a screenreader. Or search engines will also prefer sites with proper formatting. -->
