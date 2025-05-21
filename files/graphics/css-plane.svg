@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="393.54" height="138.93" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 393.54 138.93">
+  <defs>
+    <style>
+      svg {
+        image-rendering: pixelated;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-family: QTEurotype, QTEurotype;
+        font-size: 21.33px;
+      }
+    </style>
+  </defs>
+  <image width="32" height="32" transform="translate(306.63 2.63) scale(3.08)" xlink:href="../images/pixelcss.png"/>
+  <image width="32" height="32" transform="translate(155.73 2.63) scale(3.08)" xlink:href="../images/pixelhtml.png"/>
+  <image width="32" height="32" transform="translate(0 2.63) scale(3.08)" xlink:href="../images/pixelplane.png"/>
+  <text class="cls-2" transform="translate(178.61 131.24)"><tspan x="0" y="0">HTML</tspan></text>
+  <text class="cls-2" transform="translate(337.15 131.24)"><tspan x="0" y="0">CSS</tspan></text>
+  <g>
+    <line class="cls-3" x1="106.24" y1="51.97" x2="152.35" y2="51.97"/>
+    <polygon class="cls-1" points="145.72 60.15 144.36 58.69 151.58 51.98 144.36 45.26 145.72 43.8 154.52 51.98 145.72 60.15"/>
+  </g>
+  <g>
+    <line class="cls-3" x1="255.62" y1="51.97" x2="301.73" y2="51.97"/>
+    <polygon class="cls-1" points="295.1 60.15 293.73 58.69 300.96 51.98 293.73 45.26 295.1 43.8 303.89 51.98 295.1 60.15"/>
+  </g>
+</svg>

@@ -76,15 +76,15 @@
     </clipPath>
   </defs>
   <g class="cls-11">
-    <image width="64" height="64" transform="translate(308.29) scale(2.9)" xlink:href="../images/svg_test-1.png"/>
+    <image width="64" height="64" transform="translate(308.29) scale(2.9)" xlink:href="../images/macintosh.png"/>
   </g>
   <g class="cls-5">
     <g class="cls-8">
-      <image width="64" height="64" transform="translate(0 117.07) scale(2.9)" xlink:href="../images/svg_test-2.png"/>
+      <image width="64" height="64" transform="translate(0 117.07) scale(2.9)" xlink:href="../images/apple-ii.png"/>
     </g>
   </g>
   <g class="cls-6">
-    <image width="64" height="64" transform="translate(33.69 544.05) scale(2.9)" xlink:href="../images/svg_test-3.png"/>
+    <image width="64" height="64" transform="translate(33.69 544.05) scale(2.9)" xlink:href="../images/targus-supersport.png"/>
   </g>
   <text class="cls-4" transform="translate(24.75 325.04)"><tspan x="0" y="0" xml:space="preserve">192.168.14.23  </tspan></text>
   <text class="cls-4" transform="translate(574.79 317.03)"><tspan x="0" y="0">GET</tspan></text>
@@ -93,13 +93,13 @@
   <text class="cls-4" transform="translate(430.91 757.58)"><tspan x="0" y="0">66.249.79.124</tspan></text>
   <text class="cls-4" transform="translate(58.62 753.47)"><tspan x="0" y="0">45.33.32.156 </tspan></text>
   <g class="cls-7">
-    <image width="64" height="64" transform="translate(497.26 232.23) scale(2.9)" xlink:href="../images/svg_test-4.png"/>
+    <image width="64" height="64" transform="translate(497.26 232.23) scale(2.9)" xlink:href="../images/compaq-server2.png"/>
   </g>
   <g class="cls-10">
-    <image width="64" height="64" transform="translate(238.12 325.04) scale(2.9)" xlink:href="../images/svg_test-5.png"/>
+    <image width="64" height="64" transform="translate(238.12 325.04) scale(2.9)" xlink:href="../images/compaq-server1.png"/>
   </g>
   <g class="cls-9">
-    <image width="64" height="64" transform="translate(404.45 547.03) scale(2.9)" xlink:href="../images/svg_test-6.png"/>
+    <image width="64" height="64" transform="translate(404.45 547.03) scale(2.9)" xlink:href="../images/ibm-simon.png"/>
   </g>
   <text class="cls-4" transform="translate(343.75 216.85)"><tspan x="0" y="0" xml:space="preserve">10.45.78.99  </tspan></text>
   <text class="cls-4" transform="translate(295.9 538.42)"><tspan x="0" y="0">8.8.4.4 </tspan></text>

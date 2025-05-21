@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="688.13" height="172.78" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 688.13 172.78">
+  <defs>
+    <style>
+      svg {
+        image-rendering: pixelated;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-family: QTEurotype, QTEurotype;
+        font-size: 21.33px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(7.09 81.86)"><tspan x="0" y="0">console.log(”Hello!”);</tspan></text>
+  <text class="cls-2" transform="translate(280.88 35.04)"><tspan x="0" y="0">111110000</tspan><tspan x="0" y="25.59">111110001</tspan><tspan x="0" y="51.18">100100010</tspan><tspan x="0" y="76.78">101100010 </tspan><tspan x="0" y="102.37">110101101</tspan></text>
+  <g>
+    <line class="cls-3" x1="426.58" y1="76.23" x2="472.69" y2="76.23"/>
+    <polygon class="cls-1" points="466.06 84.41 464.69 82.94 471.92 76.23 464.69 69.52 466.06 68.05 474.85 76.23 466.06 84.41"/>
+  </g>
+  <g>
+    <line class="cls-3" x1="206.55" y1="76.23" x2="252.65" y2="76.23"/>
+    <polygon class="cls-1" points="246.03 84.41 244.66 82.94 251.89 76.23 244.66 69.52 246.03 68.05 254.82 76.23 246.03 84.41"/>
+  </g>
+  <image width="64" height="64" transform="translate(498.44 -12.26) scale(2.86)" xlink:href="../images/apple-iii.png"/>
+</svg>

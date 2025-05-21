@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="466.9" height="353.75" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 466.9 353.75">
+  <defs>
+    <style>
+      svg {
+        image-rendering: pixelated;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-family: QTEurotype, QTEurotype;
+        font-size: 21.33px;
+      }
+    </style>
+  </defs>
+  <image width="64" height="64" transform="translate(289.07 87.04) scale(2.86)" xlink:href="../images/compaq-server3.png"/>
+  <g>
+    <polyline class="cls-3" points="94.97 67.32 94.97 43.51 385.72 43.51 385.72 65.15"/>
+    <polygon class="cls-1" points="377.54 58.52 379.01 57.16 385.72 64.38 392.43 57.16 393.9 58.52 385.72 67.32 377.54 58.52"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="386.72 283.05 386.72 307.42 95.97 307.42 95.97 285.22"/>
+    <polygon class="cls-1" points="104.15 291.85 102.69 293.21 95.97 285.99 89.26 293.21 87.8 291.85 95.97 283.05 104.15 291.85"/>
+  </g>
+  <text class="cls-2" transform="translate(208.24 23.79)"><tspan x="0" y="0">GET /</tspan></text>
+  <text class="cls-2" transform="translate(208.24 344.64)"><tspan x="0" y="0">index.html</tspan></text>
+  <image width="64" height="64" transform="translate(6.89 87.04) scale(2.86)" xlink:href="../images/ibm-personal-computer.png"/>
+
+</svg>

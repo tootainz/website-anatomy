@@ -28,11 +28,11 @@ I assume you have read the page on the website side already. Lets take a deeper 
 <body>
     <!-- Section is just a way to group tags together. It is similiar to a div tag.
     And another thing: As you see here, inside contents of a tag are usually indented to make the document easier to read for humans making it.-->
-    <section>
+    <section class="bodyBlock">
         <!-- This is a level one header. You can have multiple levels of headers. It tells that this text should be big!! But of course it can be adjusted in CSS how it will look like. -->
         <h1>HTML</h1>
 
-        <!-- These are just plain text paragraphs, These are everywhere adn ar enot very exciting -->
+        <!-- These are just plain text paragraphs, These are everywhere and are not very exciting -->
         <p>HTML is a standardised language to help prepare and organise documents (read websites) that the browser can read and display in a consistent manner.</p>
         <p>The language consists of tags that tell the browser how it should interpret that specific part.</p>
         <p>Tags have properties that are usually tied to how the browser interprets them but they can basically be just any information associated with that tag/element.</p>
@@ -57,6 +57,11 @@ I assume you have read the page on the website side already. Lets take a deeper 
         <p>Take a peek into the code to see HTML in more detail.<!-- Yay, here we are --></p>
         <p>When the browser receives a HTML document it uses it as instructions to construct an inner model/map of the document called Document Object Model. It then uses that model to display the website visually.</p>
         <p>In our paper plane analogy, HTML document is basically the text content written in the paper.</p>
+
+        <div class="pixelPlaneCollection">
+            <object type="image/svg+xml" data="../files/graphics/html-plane.svg" width="100%" height="100%" style="image-rendering: pixelated;"></object>
+        </div>
+
     </section>
     
     <!-- This is a footer. It, along with a header are really common in websites. A footer is used to contain info such as links or copyright or other stuff that is usually the same on every page. Footer is in the bottom of a page and headr on the top. A typical header has a logo and navigation links or buttons. -->

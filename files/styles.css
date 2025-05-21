@@ -55,6 +55,7 @@ X8888  X888h       !  "   ` .xnxx.    !  "   ` .xnxx.
 
 html {
     background-color: var(--ligth-beige);
+    padding: 10px;
 }
 
 body {
@@ -66,12 +67,23 @@ body {
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     image-rendering: -moz-crisp-edges;
 }
 
+@media (max-width: 550px) {
+    body {
+        padding: 25px;
+        padding-top: 50px;
+    }
+}
+
 h1 {
+    margin-top: 0;
+    margin-bottom: 35px;
     font-family: "Eurotype Bold";
     font-size: 35px;
 }
@@ -80,6 +92,8 @@ h1 {
 h2 {
     font-family: "Eurotype Bold";
     font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 code {
@@ -100,6 +114,7 @@ a:hover {
 }
 
 button {
+    border-style: solid;
     font-family: "Eurotype";
     font-size: 20px;
     color: var(--black);
@@ -122,6 +137,16 @@ nav {
     padding-right: 50px;
 }
 
+@media (max-width: 550px) {
+    nav {
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 nav a {
     border: solid;
     text-decoration: none;
@@ -141,9 +166,24 @@ ul li::marker {
     content: "> ";
 }
 
+img {
+    width: 100%;
+}
+
+object {
+    image-rendering: pixelated;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bodyBlock object:last-child {
+    image-rendering: pixelated;
+    margin-bottom: 0;
+}
+
 footer {
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 /* -------------------------------------------------- */
@@ -152,10 +192,11 @@ footer {
 
 .bookTitle {
     font-size: 50px;
+    margin-bottom: 50px;
 }
 
 .bodyBlock {
-    padding-bottom: 25px;
+    margin-bottom: 75px;
 }
 
 .hiddenSecret {
@@ -164,6 +205,54 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.doubleImages {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.doubleImages img {
+    width: 35%;
+}
+
+.pixelPlane {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 18%;
+}
+
+.pixelPlaneCollection {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 470px) {
+    .pixelPlane {
+        width: 25%;
+    }
+
+    .pixelPlaneCollection {
+        height: 75px;
+    }
+}
+
+.pixelPlaneCollection object {
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 100%;
+}
+
+.doubleColumn {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
 }
 
 /* -------------------------------------------------- */
@@ -176,7 +265,6 @@ footer {
     background-color: var(--black);
     color: var(--screen-amber);
     padding: 50px;
-    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -206,4 +294,64 @@ footer {
     width: 20px;
     height: 20px;
     margin: 5px;
+}
+
+@media (max-width: 550px) {
+    #game {
+        font-size: 14px;
+        padding: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .gameTile {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* -------------------------------------------------- */
+/* INDIVIDUAL IMAGE STYLING */
+/* -------------------------------------------------- */
+
+.doubleColumn .pixelPlane {
+    --pixelPlane-width: 75px;
+    max-width: var(--pixelPlane-width);
+    min-width: var(--pixelPlane-width);
+    margin-left: 0;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+#browserNServer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#browserNServer object{
+margin-bottom: 50px;
+}
+
+@media (max-width: 550px) {
+    #browserNServer {
+        width: 100%;
+    }
+
+    .doubleColumn .pixelPlane {
+        --pixelPlane-width: 60px;
+        max-width: var(--pixelPlane-width);
+        min-width: var(--pixelPlane-width);
+        margin-left: 0;
+        margin-right: 25px;
+        padding-top: 5px;
+    }
+}
+
+#reactMac {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
