@@ -1,3 +1,5 @@
+Image Credits
+
 https://collection.sciencemuseumgroup.org.uk/objects/co8361064/simon-mobile-communicator-1994-1995
 "Simon Mobile Communicator, 1994-1995" by IBM; BellSouth is licensed under CC BY-NC-SA 4.0.
 
@@ -42,3 +44,5 @@ https://commons.wikimedia.org/w/index.php?curid=98783064
 
 https://collections.museumsvictoria.com.au/items/400545
 "Computer Server - IBM, 'Swan 1', circa 1990" is licensed under CC BY 4.0.
+
+All images have been reduced in resolution and colors edited and painted over and stylised into pixel art style images
